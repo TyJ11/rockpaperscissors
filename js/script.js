@@ -4,7 +4,11 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
+$("#shoot").click (function(){
+    $("#userChoice").text($("#input").val());
+    
+    var randomNumber = Math.random();
+}
 
 
 // DOCUMENT READY FUNCTION BELOW
